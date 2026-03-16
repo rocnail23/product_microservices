@@ -17,7 +17,7 @@ async function bootstrap() {
       }
     }
   );
-
+  //GOLA 4
   app.useGlobalPipes(
     new ValidationPipe({
       whitelist: true,
